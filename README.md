@@ -1,5 +1,5 @@
 
-###  Collaborative 3D Data Visualization Workspace
+# Collaborative 3D Data Visualization Workspace
 
 ---
 
@@ -18,7 +18,7 @@
 
 ---
 
-# Analyst
+### Analyst
 
 * Move freely through the city
 * Scan buildings with Raycast to gather ID and population info
@@ -26,7 +26,7 @@
 
 ---
 
-# Visualizer
+### Visualizer
 
 * Receive and display data in real-time
 * Visualize population info from Analysts’ scans
@@ -37,37 +37,36 @@
 
 ---
 
-# Scene Overview
+### Scene Overview
+Image showing the 3D Unity scene where the collaboration happens:
 
-Voici une image représentant la scène 3D dans Unity où se déroule la collaboration :
 
-```markdown
 ![Scene Overview](images/scene.png)
-```
+![Scene Overview](images/analyst-visualiser.png)
 
 ---
 
-### ### Analyst Interface
+### Analyst Interface
 
-Interface utilisée par le rôle Analyst pour naviguer et scanner les bâtiments :
+Interface used by the Analyst to navigate and scan buildings:
 
-```markdown
+
 ![Analyst Interface](images/analyser.png)
-```
+
 
 ---
 
-### ### Visualizer Interface
+### Visualizer Interface
 
-Interface du Visualizer affichant les données reçues en temps réel :
+Interface used by the Visualizer to display received data in real-time:
 
-```markdown
+
 ![Visualizer Interface](images/visualser.png)
-```
+
 
 ---
 
-### ## Technologies & Tools
+## Technologies & Tools
 
 * Unity
 * C#
@@ -75,7 +74,7 @@ Interface du Visualizer affichant les données reçues en temps réel :
 
 ---
 
-### ##  How to Run
+## How to Run
 
 1. Clone the repository
 2. Open the project in Unity
@@ -84,11 +83,13 @@ Interface du Visualizer affichant les données reçues en temps réel :
 
 ---
 
-### ## Project Structure (extrait)
+## Project Structure (extrait)
 
-* `Assets/` – Contient les scripts, scènes et ressources Unity
-* `Packages/` – Packages Unity
-* `ProjectSettings/` – Paramètres du projet Unity
+* `Assets/` –  Contains scripts, scenes, and Unity assets
+* `Packages/` – Unity packages
+* `ProjectSettings/` – Unity project settings
+
+
 
 ---
 
