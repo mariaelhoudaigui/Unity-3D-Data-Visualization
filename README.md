@@ -7,8 +7,9 @@
 
 * This multiplayer Unity app uses Photon PUN to create a shared 3D city environment where users take on one of two roles:
 
-  **Analyst:** navigates and scans buildings using Raycast, sending building ID and population data via PhotonView\.RPC
-  **Visualizer:** receives and displays the real-time data from Analysts
+  *Analyst:* navigates and scans buildings using Raycast, sending building ID and population data via PhotonView\.RPC
+
+  *Visualizer:* receives and displays the real-time data from Analysts
 
 * All player movements and data sharing are synchronized smoothly with PhotonTransformView and RPC calls, enabling real-time collaborative data analysis in a shared space.
 
@@ -16,7 +17,6 @@
 
 ##  Roles & Features
 
----
 
 ### Analyst
 
@@ -24,7 +24,6 @@
 * Scan buildings with Raycast to gather ID and population info
 * Send scanned data to other clients
 
----
 
 ### Visualizer
 
@@ -35,7 +34,6 @@
 
 ##  Interface & Visualization
 
----
 
 ### Scene Overview
 Image showing the 3D Unity scene where the collaboration happens:
@@ -44,7 +42,7 @@ Image showing the 3D Unity scene where the collaboration happens:
 ![Scene Overview](images/scene.png)
 ![Scene Overview](images/analyst-visualiser.png)
 
----
+
 
 ### Analyst Interface
 
@@ -53,8 +51,6 @@ Interface used by the Analyst to navigate and scan buildings:
 
 ![Analyst Interface](images/analyser.png)
 
-
----
 
 ### Visualizer Interface
 
